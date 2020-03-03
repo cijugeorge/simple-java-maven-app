@@ -17,6 +17,7 @@ public class AppTest
 
     @Before
     public void setUpStreams() {
+        System.out.println("Test ******");
         System.setOut(new PrintStream(outContent));
     }
 
